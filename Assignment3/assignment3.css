@@ -1,0 +1,68 @@
+
+
+/* "General Headers" */
+
+h1 {
+    color: rgb(49, 42, 151);
+    background-color: rgb(187, 187, 187);
+}
+
+h2 {
+    color: rgb(52, 122, 134);
+    background-color: rgb(187, 187, 187);
+}   
+
+h3 {
+    color: rgb(37, 138, 83);
+    background-color: rgb(187, 187, 187);
+}
+
+h4 {
+    color: rgb(148, 29, 134);
+    background-color: rgb(187, 187, 187);
+}
+
+
+/* "IDs" */
+
+#list{
+    background-color: rgb(134, 94, 207);
+}
+
+
+#important {
+    color: #d66262;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* "Classes" */
+
+.copyright {
+    color:#0000ff;
+    background-color:rgb(108, 231, 108);
+}
+
+.span {
+    color: rgb(255, 0, 157)
+}
+
+/* "Links" */
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: #ff0000;
+  }
+  
+  a:visited {
+    color: #00ff2a;
+  }
+  
+  a:hover {
+    color: #ffff00;
+  }        
+  
