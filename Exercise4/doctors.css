@@ -1,0 +1,56 @@
+h1{
+    color:white;
+}
+
+main{
+    background-color:rgb(162, 162, 238);
+}
+
+a{
+    color:green;
+    text-decoration:none;
+}
+
+a:hover{
+    color:red;
+    text-decoration:underline;
+}
+
+h2{
+    color:blue;
+}
+
+span{
+    color:orange;
+    font-weight:bold;
+}
+
+h3{
+    background-color:yellow;
+}
+
+.redtext{
+    color:red;
+}
+
+h4{
+    color:yellow;
+    background-color:darkgreen;
+}
+
+.greenbg{
+    background-color:lightgreen;
+    font-size:15px;
+}
+
+h5{
+    color:red
+}
+
+b{
+    color:blue;
+}
+
+footer{
+    background-color: yellow;
+}
