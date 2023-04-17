@@ -17,7 +17,9 @@ header {
   grid-column:span 8;
   background-color:#450E73;
   color:white;
-  font-family: Helvetica, arial, sans-serif;
+  font-family: "adorn-engraved", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .links{
@@ -63,6 +65,7 @@ nav li {
   margin: 10px;
   display: inline-block;
   background-color: #450E73;
+  border-radius: 10px;
 }
 
 nav li a{
@@ -72,25 +75,39 @@ nav li a{
   padding: 10px;
   padding-right: 20px;
   padding: 24px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
+  border-radius: 10px;
+  font-family: "adorn-engraved", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 nav li a:hover{
   background-color: #9334e2;
+  border: 1px solid #953cdd;
+  box-shadow: 7px 7px 8px #9c52d7; /* x, y, blur, color */
+  border-radius: 10px;
 }
 
 aside{
   display: inline-block;
   align-content: center;
   margin-left: 10px;
-  font-family: Georgia, Arial, Helvetica;
   color: white;
   margin-right: 45px;
+  font-family: "ratiomodern", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 main{
   grid-column: span 5;
+}
+
+img{
+  border:white 3px solid;
+  border-radius: 10px;
 }
 
 h2{
@@ -99,13 +116,26 @@ h2{
   border-bottom: 3px white solid;
   padding-bottom: 10px;
   margin-right: 30px;
+  font-family: "adorn-engraved", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3{
+  text-align:center;
+  font-size: 30px;
+  margin: 5px;
+  padding-bottom: 20px
 }
 
 main a{
   color: white;
   text-decoration:none;
   align-content:center;
-  font-size: 25px;
+  font-size: 20px;
+  font-family: "adorn-engraved", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 main a:hover{
