@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ani Carol - Game Design Portfolio</title>
+
+	<link href="portfolio.css" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+	<link rel="stylesheet" href="https://use.typekit.net/fnb7flv.css">
+
+	<link rel="stylesheet" href="https://use.typekit.net/rno1rfv.css">
+
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+	
+
+</head>
+
+
+<body>
+	<div id="wrapper">
+		<header>
+			<h1><a href=MainPage.html>Ani Carol <br> Game Designer</a></h1>
+			<div class="links">
+			<a href="#" class="bi bi-envelope"> E-Mail</a></h1><br>
+			<a href="#" class="bi bi-twitter"> Twitter</a></h1><br>
+			<a href="#" class="bi bi-file-earmark-person"> Resume</a></h1>
+		</div>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="games.html">Games</a></li>
+				<li><a href="web.html">Web Design</a></li>
+				<li><a href="concept.html">Concept Art</a></li>
+				<li><a href="about.html">About Me</a></li>
+			</ul>
+		</nav>
+        <main>
+			<h2>Critter Bidder</h2>
+			<img src="critter.jpg" alt="Picture of Critter Bidder">
+
+			<h3>Summery</h3>
+			<p>A chaotic bidding style game where players take on the roll of 8 different animals which are connect to a specific color. Each player will then try to collect 9 total cards with the same color as their animal. Players will have to trade with other players by saying how many cards they want to trade. The game has no rounds and anyone can go whenever they want. There is a phase system where every minute a new restriction is added onto the players.</p>
+
+			<h3>Role on the Team</h3>
+			<p>In the group, I had the role of Game Designer and Group Mediator. I contributed to the game by coming up with the theme of players taking the role of animals. I also helped come up with a lot of the mech	anics of the game such as the phase system and the limitations it will apply. I also came up with the story and world prompt. </p>
+
+			<h3>Project Pictures</h3>
+			<div class="f-carousel" id="myCarousel">
+				<div class="f-carousel__slide"><img src="cb1.jpg" alt="Critter Bidder Cards spread on table after a game"></div>
+				<div class="f-carousel__slide"><img src="cb2.jpg" alt="Picture of a game in progress"></div>
+				<div class="f-carousel__slide"><img src="cb3.jpg" alt="Picture of another game in progress"></div>
+				<div class="f-carousel__slide"><img src="cb4.jpg" alt="Picture of a players hand of Critter Bidder Cards"></div>
+				<div class="f-carousel__slide"><img src="cb5.jpg" alt="Picture of Critter Bidder set up to be played"></div>
+			  </div>
+
+			<script>   
+				Fancybox.bind("[data-fancybox]", {
+				  // your custom options
+				});
+				
+				const container = document.getElementById("myCarousel");
+				const options = { infinite: true };
+		  
+				new Carousel(container, options);
+			</script>
+
+        </main>
+    </div>
+</body>
+</html>
